@@ -24,7 +24,6 @@ Ce projet a pour objectif de concevoir une fiche produit simple, structurée et 
 
 ## 🖼️ Aperçu de l'application
 
-*La capture d'écran réelle de l'application sera ajoutée ici.*
 
 <!-- Capture à placer dans screenshots/fiche_produit.png -->
 
