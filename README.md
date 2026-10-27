@@ -1,16 +1,90 @@
-# tp2_fiche_produit
+# 🛍️ TP2 — Fiche produit avec Flutter
 
-A new Flutter project.
+> Développement d'une interface mobile présentant un produit à l'aide des widgets Flutter.
 
-## Getting Started
+## 📌 Présentation
 
-This project is a starting point for a Flutter application.
+Ce projet a pour objectif de concevoir une fiche produit simple, structurée et agréable à consulter. Il permet de découvrir les widgets essentiels de Flutter et de comprendre comment les combiner pour construire une interface utilisateur.
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Objectifs pédagogiques
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Découvrir la composition d'une interface avec Flutter.
+- Organiser les éléments à l'aide de `Row` et `Column`.
+- Maîtriser les espacements avec `Padding` et `SizedBox`.
+- Personnaliser l'apparence d'une carte avec `Card` et `Container`.
+- Ajouter un bouton d'action avec `ElevatedButton`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Fonctionnalités
+
+- Présentation visuelle du produit.
+- Affichage du nom et du prix.
+- Bouton « Acheter ».
+- Mise en page organisée et lisible.
+- Personnalisation visuelle avec des marges, des coins arrondis et des ombres.
+
+## 🖼️ Aperçu de l'application
+
+*La capture d'écran réelle de l'application sera ajoutée ici.*
+
+<!-- Capture à placer dans screenshots/fiche_produit.png -->
+
+![Aperçu de la fiche produit](screenshots/fiche_produit.png)
+
+## 🧰 Technologies utilisées
+
+| Technologie | Utilisation |
+|---|---|
+| Flutter | Création de l'interface |
+| Dart | Langage de programmation |
+| Widgets Flutter | Construction et organisation des composants |
+
+## 🧩 Widgets principaux
+
+| Widget | Rôle |
+|---|---|
+| `Scaffold` | Structure générale de l'écran |
+| `Card` | Présentation du contenu dans une carte |
+| `Container` | Personnalisation de l'apparence |
+| `Column` et `Row` | Organisation des éléments |
+| `Padding` et `SizedBox` | Gestion des espacements |
+| `ElevatedButton` | Création du bouton d'action |
+
+## 🗂️ Structure du projet
+
+L'organisation du projet sépare le code source, les ressources et les tests.
+
+![Structure du projet](screenshots/structure.png)
+
+## ⚙️ Installation et exécution
+
+**Prérequis :** Flutter et Dart installés sur la machine.
+
+1. Cloner le dépôt :
+
+   ```bash
+   git clone https://github.com/UAS2K27Flutter/TP-WIDGET-CARDS-1.git
+   ```
+
+2. Accéder au dossier du projet :
+
+   ```bash
+   cd TP-WIDGET-CARDS-1
+   ```
+
+3. Installer les dépendances :
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Lancer l'application :
+
+   ```bash
+   flutter run
+   ```
+
+## 👩‍💻 Auteur
+
+**Kaabi Hiba**
+
+Université Arabe des Sciences (UAS) — Travaux pratiques de développement mobile avec Flutter.
